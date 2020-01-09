@@ -1,20 +1,13 @@
 #!/bin/bash
-###
-# Version  Date      Author    Description
-#-----------------------------------------------
-# 0.1      22/02/18  Shini31   Initial version
-#
-###
-
 
 #Global Variables
 VERSION="0.1"
 PROGNAME=`basename $0`
 PROGPATH=`dirname $0`
 KAFKA_CG_PATH="/usr/local/kafka"
-KAFKA_HOST="127.0.0.1"
+KAFKA_HOST="10.0.0.123"
 KAFKA_PORT="9092"
-CONFIG_FILE=""
+CONFIG_FILE="/usr/local/kafka/config/consumer.properties"
 CG=""
 
 #Help function
